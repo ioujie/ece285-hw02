@@ -1,0 +1,10 @@
+torch>=2.4.0
+torchvision>=0.19.0
+numpy>=1.26.0
+pandas>=2.0.0
+scipy>=1.13.0
+pillow>=10.0.0
+matplotlib>=3.8.0
+tqdm>=4.66.0
+# Optional: uncomment to run evaluation with the native PyTorch-Ignite Engine
+# pytorch-ignite>=0.4.13

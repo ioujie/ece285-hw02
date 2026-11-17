@@ -1,0 +1,15 @@
+{
+  "model": "Self-Attention SNGAN-ResNet (128x128)",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "dataset_images": 81444,
+  "best_epoch": 25,
+  "eval_samples": 10000,
+  "final_fid": 47.7444,
+  "final_is_mean": 4.8169,
+  "final_is_std": 0.1177,
+  "real_wikiart_is_mean": 8.6494,
+  "real_wikiart_is_std": 0.1282,
+  "g_params_millions": 5.816,
+  "d_params_millions": 3.534,
+  "peak_vram_gb": 5.651
+}
