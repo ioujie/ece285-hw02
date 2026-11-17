@@ -84,20 +84,17 @@ An unconditional Generative Adversarial Network (**Self-Attention SNGAN-ResNet**
 
 ```text
 ece285-hw02/
-├── wikiart_gan.py                                 # Consolidated training, evaluation & plotting script
-├── HW02.ipynb                                     # Original executed Jupyter notebook
-├── 2021-08-11-GAN-evaluation-using-FID-and-IS.ipynb # Reference PyTorch-Ignite evaluation notebook
-├── ece285_hw2.pdf                                 # Assignment prompt
-├── requirements.txt                               # Python dependencies
+├── wikiart_gan.py               # Consolidated training, evaluation & plotting script
+├── requirements.txt             # Python dependencies
 ├── README.md
 └── outputs/
-    ├── config.json                                # Hyperparameter configuration
-    ├── history.json                               # Per-iteration & per-epoch metrics history
-    ├── metrics_summary.json                       # Final 10k evaluation summary
+    ├── config.json              # Hyperparameter configuration
+    ├── history.json             # Per-iteration & per-epoch metrics history
+    ├── metrics_summary.json     # Final 10k evaluation summary
     ├── checkpoints/
-    │   └── best_checkpoint.pt                     # Best EMA generator checkpoint (Epoch 25)
-    ├── figures/                                   # High-DPI figures for the report
-    └── samples/                                   # Fixed-noise progression grids (Epoch 1 -> 25)
+    │   └── best_checkpoint.pt   # Best EMA generator checkpoint (Epoch 25)
+    ├── figures/                 # High-DPI figures for the report
+    └── samples/                 # Fixed-noise progression grids (Epoch 1 -> 25)
 ```
 
 ---

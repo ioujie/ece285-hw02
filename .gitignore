@@ -4,6 +4,11 @@ data/
 cache/
 *.tmp.npy
 
+# Notebooks, assignment PDF, and LaTeX style files
+*.ipynb
+*.pdf
+*.sty
+
 # Resume checkpoint (>100 MB GitHub file limit); keep best_checkpoint.pt (44.5 MB)
 outputs/checkpoints/last_checkpoint.pt
 
